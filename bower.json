@@ -1,0 +1,28 @@
+{
+  "name": "team-focus.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/team-focus/team-focus.github.io",
+  "authors": [
+    "Fabien LEFRANCOIS <lefran.f@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "jquery-backstretch": "~2.0.4",
+    "jquery.countdown": "~2.0.4",
+    "jquery-ui-map": "~3.0.1",
+    "font-awesome": "~4.3.0"
+  },
+  "resolutions": {
+    "jquery": ">= 1.9.1"
+  }
+}
