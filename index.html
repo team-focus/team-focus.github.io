@@ -98,7 +98,7 @@
                 <div class="col-sm-12 subscribe">
                     <h3>Subscribe to our newsletter</h3>
                     <p>Sign up now to our newsletter and you'll be one of the first to know when the app is ready:</p>
-                    <form class="form-inline" role="form" action="https://teamfocus.us10.list-manage.com/subscribe/post?u=1cceeb4037363ed429daf05e3&amp;id=ecd1ff9e89" method="post" method="post" target="_blank">
+                    <form class="form-inline newsletter" role="form" action="https://teamfocus.us10.list-manage.com/subscribe/post?u=1cceeb4037363ed429daf05e3&amp;id=ecd1ff9e89" method="post" method="post">
                         <div class="form-group">
                             <label class="sr-only" for="subscribe-email">Email address</label>
                             <input type="text" name="EMAIL" placeholder="Enter your email..." class="subscribe-email" id="subscribe-email">
@@ -253,7 +253,7 @@
 
                         <h4>Subscribe to our newsletter</h4>
                         <p>Sign up now to our newsletter and you'll be one of the first to know when the app is ready:</p>
-                        <form class="form-inline" role="form" action="https://teamfocus.us10.list-manage.com/subscribe/post?u=1cceeb4037363ed429daf05e3&amp;id=ecd1ff9e89" method="post" method="post" target="_blank">
+                        <form class="form-inline newsletter" role="form" action="https://teamfocus.us10.list-manage.com/subscribe/post?u=1cceeb4037363ed429daf05e3&amp;id=ecd1ff9e89" method="post" method="post">
                             <div class="form-group">
                                 <label class="sr-only" for="subscribe-email">Email address</label>
                                 <input type="text" name="EMAIL" placeholder="Enter your email..." class="subscribe-email" id="subscribe-email">
@@ -304,7 +304,7 @@
         mixpanel.init("aea53deb9e19eb94301163525fd8dfcb");</script>
         <script type="text/javascript">
             mixpanel.track("page view");
-            // mixpanel.track_forms("form[target=\"_blank\"]", "subscribe newsletter");
+            mixpanel.track_forms("form.newsletter", "subscribe newsletter");
         </script>
         <!-- end Mixpanel -->
 
