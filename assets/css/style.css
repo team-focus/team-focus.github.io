@@ -27,7 +27,7 @@ img { max-width: 100%; }
 /***** Top menu *****/
 
 nav {
-    display: yes;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
