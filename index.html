@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <script type="text/javascript">
+            var language = window.navigator.userLanguage || window.navigator.language;
+            if (!language) {
+                language = "en";
+            }
+
+            language = language.slice(0, 2);
+            if (language != "en" && language != "fr") {
+                language = "en";
+            }
+
+            // Everyone should speak english right now
+            language = "en";
+            window.location.href = "/" + language + "/";
+        </script>
+    </body>
+</html>
